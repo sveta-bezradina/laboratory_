@@ -3,15 +3,13 @@
 
 #include <iostream>
 #include <windows.h>
-
+using namespace std;
 int main()
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-
-    std::cout << "\nПривіт, студент!\n";
-    system("pause");
+    cout << "Привіт, студент! Як справи?"<< endl;
 
     return 0;
 }
