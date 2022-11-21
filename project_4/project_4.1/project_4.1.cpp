@@ -20,7 +20,7 @@ int main()
     cin>> B;
     (A > B) ? cout << "Обчислюється..." <<endl << static_cast<int>(A / B): cout << "Обчислення неможливе" << endl;*/
 
-    /*float x, y, t, a;
+    float x, y, t, a;
     printf("Введіь x=");
     scanf_s("%f", &x);
     printf("Введіь y=");
@@ -28,8 +28,8 @@ int main()
     printf("Введіь t=");
     scanf_s("%f", &t);
     a = ((1 / pow(M_E, y * t) * sin(y * t + x)) - (pow(fabs(x * t + y), 1. / 2)) + (pow(8 * y - 3 * x, 1. / 3)));
-    printf("a= %f", a);*/
-    float x, y, t, b;
+    printf("a= %f", a);
+    /*float x, y, t, b;
     printf("Введіь x=");
     scanf_s("%f", &x);
     printf("Введіь y=");
@@ -37,7 +37,7 @@ int main()
     printf("Введіь t=");
     scanf_s("%f", &t);
     b = (x*sin(pow(x*t,2))*cos(2*t)-1+cos(35*M_PI/180));
-    printf("b= %f", b);
+    printf("b= %f", b);*/
     return 0;
 }
 
